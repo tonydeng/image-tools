@@ -1,9 +1,0 @@
-#!/bin/bash
-
-cmd() {
-    CMD="gm convert $1 +profile '*' -thumbnail '$2' $3"
-    echo "$CMD"
-    exit 0
-}
-
-cmd 'a' 'b' 'c'
